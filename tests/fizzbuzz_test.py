@@ -1,0 +1,10 @@
+import pytest
+
+
+@pytest.mark.parametrize('n , result',[
+    (1, '1'),
+    (2, '2'),
+    (3, 'Fizz'),
+    (4, '4'),
+    (5, 'Buzz'),
+])
