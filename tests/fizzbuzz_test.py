@@ -21,4 +21,4 @@ import pytest
 ])
 def test_n_return_actual_value(n, result):
     actual_value = result
-    assert actual_value == fizzbuzz(n)
+    assert actual_value == fizzbuzz.fizzbuzz(n)
